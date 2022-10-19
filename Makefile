@@ -4,8 +4,8 @@ test:
 CURRENT_TAG=$(shell git tag --sort version:refname | tail -n 1)
 
 first_release:
-	git tag 0.0.1
-	git push origin 0.0.1
+	git tag v0.0.1
+	git push origin v0.0.1
 
 rev_release:
 	git tag $(shell exoskeleton rev -i $(CURRENT_TAG))
