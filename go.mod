@@ -3,7 +3,7 @@ module github.com/pthomison/k8sutils
 go 1.19
 
 require (
-	github.com/pthomison/errcheck v0.0.1
+	github.com/pthomison/errcheck v0.0.2
 	k8s.io/api v0.25.3
 	k8s.io/apimachinery v0.25.3
 	k8s.io/client-go v0.25.3
